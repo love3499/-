@@ -1,0 +1,198 @@
+{% load static %}
+
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <link href="{% static "css/semantic.min.css" %}" rel="stylesheet" type="text/css">
+<style>
+
+.ui.card{
+/*width: 580px;*/
+
+}   
+
+
+              
+</style>
+    
+  
+    
+
+</head>
+<body>
+    <!--    <div id="_container" style="height:800px; width:728px; overflow:hidden; margin:0 auto;">         
+        <div class="content_box">-->
+            <!--   {% for img in images %}
+            <img src="/media/{{img}}">
+            {% endfor %}-->
+        <!--</div>
+     </div>-->
+    <!--
+    <section id="demo">
+        {% for img in images %}
+            <article class="white-panel"> 
+                <img src="/media/{{img}}">
+                <h1><a href="#">Title 1</a></h1>
+                <p>Description 1</p>
+            </article>
+        {% endfor %}    
+    </section>              
+    -->
+
+<div class="ui loading search">
+  <div class="ui icon input">
+    <input class="prompt" placeholder="Search..." type="text">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+    
+   
+
+
+<div class="ui middle aligned center aligned grid" >
+
+
+  <div class="ui grid">
+  {% for user in user_list %}
+  {% if user.tag == tag %}  
+
+    <div class="four wide column"><div class="ui card">
+  <div class="image">
+
+    <img src="{% static "images/play.png" %}">
+      <audio src="/media/{{user.headImg}}" controls="controls"></audio>
+
+  </div>
+  <div class="content">
+    <a class="header">{{user.username}}</a>
+    <div class="meta">
+      <span class="date">Joined in 2016</span>
+    </div>
+    <div class="description">
+        {{user.tag}}
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      0 個瀏覽
+    </a>
+  </div>
+</div></div>
+
+
+
+
+
+  {% else %} 
+        {% if user.tag == 'video'  %}  
+            <div class="four wide column"><div class="ui card">
+             <div class="image">
+            <video src="/media/{{user.headImg}}" height:200% width="100%" controls="controls"></video>
+
+            </div>
+            <div class="content">
+            <a class="header">{{user.username}}</a>
+            <div class="meta">
+            <span class="date">Joined in 2016</span>
+            </div>
+            <div class="description">
+                {{user.tag}}
+                    </div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                  <i class="user icon"></i>
+                  0 個瀏覽
+                </a>
+              </div>
+            </div></div>
+        {% endif %}   
+  {% if user.tag != 'video' and user.tag != tag  %}  
+  <div class="four wide column"><div class="ui card">
+  <div class="image">
+    <img src="/media/{{user.headImg}}">
+  </div>
+  <div class="content">
+    <a class="header">{{user.username}}</a>
+    <div class="meta">
+      <span class="date">Joined in 2016</span>
+    </div>
+    <div class="description">
+        {{user.tag}}
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      0 個瀏覽
+    </a>
+  </div>
+</div></div>
+ {% endif %}  
+ {% endif %}  
+
+ {% endfor %}  
+ </div>
+ <div class="ui feed">
+  <div class="event">
+    <div class="label">
+    </div>
+   
+  </div>
+</div>
+ </div>
+
+ <div class="ui feed">
+  <div class="event">
+    <div class="label">
+      
+    </div>
+    <div class="content">
+
+    <div class="ui info message">
+  <i class="close icon"></i>
+  <div class="header"> <img src="{% static "images/head.png" %}">正在播放個人頻道 -- 一日旅行紀錄 </div>
+  <ul class="list">
+    <li>播放中...</li>
+  </ul>
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+  <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="application/javascript" src="{% static "js/semantic.min.js" %}" ></script>
+
+    <!-- <script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.min.js"></script> -->
+    
+    <script>    
+        $('.special.cards .image').dimmer({
+            on: 'hover'
+        });
+
+
+        $('.ui.form').form({
+    fields: {
+      name     : 'empty',
+      gender   : 'empty',
+      username : 'empty',
+      password : ['minLength[6]', 'empty'],
+      skills   : ['minCount[2]', 'empty'],
+      terms    : 'checked'
+    }
+  });
+
+    </script>  
+    
+</body>
+</html>

@@ -1,0 +1,226 @@
+*** Starting uWSGI 2.0.12 (64bit) on [Mon Mar 28 23:33:10 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 28 March 2016 20:52:02
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.4.0 (default, Mar 28 2016, 15:20:11)  [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fedd1e00960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+added ../ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fedd1e00960 pid: 75622 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 75622, cores: 1)
+*** Starting uWSGI 2.0.12 (64bit) on [Mon Mar 28 23:33:27 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 28 March 2016 20:52:02
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.12 (64bit) on [Mon Mar 28 23:34:27 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 28 March 2016 20:52:02
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 16:20:56 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 29 March 2016 04:45:00
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/Downloads/uwsgi-2.0.12/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9000 fd 3
+Python version: 3.4.0 (default, Mar 28 2016, 15:20:11)  [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc8baf00670
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291040 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+ImportError: No module named 'django_wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 5243, cores: 1)
+spawned uWSGI worker 2 (pid: 5252, cores: 1)
+spawned uWSGI worker 3 (pid: 5253, cores: 1)
+spawned uWSGI worker 4 (pid: 5254, cores: 1)
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 16:21:04 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 29 March 2016 04:45:00
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/Downloads/uwsgi-2.0.12/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 16:22:44 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 29 March 2016 04:45:00
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/Downloads/uwsgi-2.0.12/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 16:23:48 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 29 March 2016 04:45:00
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/Downloads/uwsgi-2.0.12/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 16:24:54 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 29 March 2016 04:45:00
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/Downloads/uwsgi-2.0.12/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 16:25:13 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 29 March 2016 04:45:00
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/Downloads/uwsgi-2.0.12/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2/mysite2
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 5243|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 625 bytes} [Tue Mar 29 16:40:49 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5253|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 594 bytes} [Tue Mar 29 16:40:51 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]

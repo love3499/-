@@ -1,0 +1,106 @@
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 03:58:42 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 28 March 2016 20:52:02
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite2.sock fd 3
+Python version: 3.4.0 (default, Mar 28 2016, 15:20:11)  [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9cc3700780
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9cc3700780 pid: 29865 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29865)
+spawned uWSGI worker 1 (pid: 29916, cores: 1)
+spawned uWSGI worker 2 (pid: 29917, cores: 1)
+spawned uWSGI worker 3 (pid: 29918, cores: 1)
+spawned uWSGI worker 4 (pid: 29919, cores: 1)
+spawned uWSGI worker 5 (pid: 29920, cores: 1)
+spawned uWSGI worker 6 (pid: 29921, cores: 1)
+spawned uWSGI worker 7 (pid: 29922, cores: 1)
+spawned uWSGI worker 8 (pid: 29923, cores: 1)
+spawned uWSGI worker 9 (pid: 29924, cores: 1)
+spawned uWSGI worker 10 (pid: 29925, cores: 1)
+*** Starting uWSGI 2.0.12 (64bit) on [Tue Mar 29 03:59:03 2016] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81) on 28 March 2016 20:52:02
+os: Darwin-14.5.0 Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+nodename: Yi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/jianglinyi/django/mysite2
+detected binary path: /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
+chdir() to /Users/jianglinyi/django/mysite2
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite2.sock fd 3
+Python version: 3.4.0 (default, Mar 28 2016, 15:20:11)  [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9bc2600880
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9bc2600880 pid: 29960 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29960)
+spawned uWSGI worker 1 (pid: 30011, cores: 1)
+spawned uWSGI worker 2 (pid: 30012, cores: 1)
+spawned uWSGI worker 3 (pid: 30013, cores: 1)
+spawned uWSGI worker 4 (pid: 30014, cores: 1)
+spawned uWSGI worker 5 (pid: 30015, cores: 1)
+spawned uWSGI worker 6 (pid: 30016, cores: 1)
+spawned uWSGI worker 7 (pid: 30017, cores: 1)
+spawned uWSGI worker 8 (pid: 30018, cores: 1)
+spawned uWSGI worker 9 (pid: 30019, cores: 1)
+spawned uWSGI worker 10 (pid: 30020, cores: 1)
+...brutally killing workers...
+...brutally killing workers...
+worker 10 buried after 1 seconds
+worker 10 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+binary reloading uWSGI...
+chdir() to /Users/jianglinyi/django/mysite2
+chdir() to /Users/jianglinyi/django/mysite2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/tmp/mysite2.sock)
+found fd 3 mapped to socket 0 (/tmp/mysite2.sock)
+running /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
+running /Users/jianglinyi/.pyenv/versions/3.4.0/bin/uwsgi
